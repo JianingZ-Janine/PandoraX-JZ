@@ -53,7 +53,7 @@ url = 'https://arxiv.org/list/cs.DB/recent'
 news_titles = extract_news_titles(url)
 
 # Keywords to filter the titles
-keywords = ['RAG', 'Cloud', 'Knowledge', 'On-device']
+keywords = ['RAG', 'Cloud','Datalake', 'On-device']
 
 # Filter the titles based on the specified keywords
 filtered_titles = filter_titles_by_keywords(news_titles, keywords)
